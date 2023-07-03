@@ -1,0 +1,52 @@
+.gridContainer{
+    padding: 0.5rem 1rem;
+    display:flex;
+    /* border: 2px solid red; */
+    box-shadow: 2px 2px 20px #c5bfbf, -2px -2px 20px #fff;
+
+    justify-content: space-between;
+    align-items: center;
+}
+.flexContainer{
+    display: flex;
+    gap: 1rem;
+    /* border: 2px solid red; */
+}
+.hamburger{
+    width: 1.5rem;
+    /* border: 2px solid red; */
+    height: 4rem;
+}
+.hamburger:hover{
+    cursor: pointer;
+}
+.youtubeLogo{
+    height: 4rem;
+}
+.userLogo{
+    height: 2rem;
+}
+.searchBar{
+    display: flex;
+    align-items: center;
+    border: 2px solid lightgrey;
+    border-radius: 2rem;
+}
+.searchInput{
+    /* border: 2px solid red; */
+    width: 35rem;
+    border: none;
+    font-size: medium;
+    padding: 0.5rem;
+    border-radius: 2rem;
+    /* border-right: 2px solid lightgrey; */
+   
+}
+.searchButton{
+    /* border: 2px solid pink; */
+    padding:0.5rem 1rem;
+    background-color: #F0F0F0;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    border: none;
+}
